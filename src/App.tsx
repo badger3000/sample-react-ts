@@ -41,7 +41,7 @@ function App() {
     <section className="conteiner w-full p-10 text-center flex flex-col">
       <input
         type="text"
-        placeholder="Search photos..."
+        placeholder="Search things..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         className="mb-4 p-2 border border-gray-300 rounded w-full m-auto max-w-full md:max-w-[800px]"
